@@ -1,0 +1,36 @@
+{
+    "data": {
+        "title": "JavaScript SAT Questions",
+        "questions": [
+            {   "title": "SAT Math No Calc Test 5 Q1",
+                "question": "What are the solutions of the quadratic equation ? $${4x^2-8x-12=0}$$ ",
+                "hint1": "It is a qudratic equation",
+                "hint2": "We can factor a quadratic equation to solve for x",
+                "optionA": "x = -1 and x =-3",
+                "optionB": "x=-1 and x= 3",
+                "optionC": "x=1 and x =-3",
+                "optionD": "x=1 and x =3"
+            },
+            {
+                "question": "What is one way a website can store data in a user's browser?",
+                "hint": "They are delicious with milk",
+                "answer": "Cookies"
+            },
+            {
+                "question": "What is a common way to shorten the response object's name inside middleware?",
+                "hint": "It has the same abbreviation as \"resolution\"",
+                "answer": "res"
+            },
+            {
+                "question": "How many different values can booleans have?",
+                "hint": "Think: binary",
+                "answer": "2"
+            },
+            {
+                "question": "Which HTML element can contain JavaScript?",
+                "hint": "It starts with an \"s\"",
+                "answer": "<script>"
+            }
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter|Righteous&display=swap');
+
+/*the instruction */
+.container{
+    background-image:url("https://anotherimg-dazedgroup.netdna-ssl.com/1200/0-0-1500-1000/azure/another-prod/360/9/369052.jpg");
+    background-size:cover;
+    margin:0px;
+    padding:0px;
+}
+.instruction{
+    border:20px;
+    vertical-align:middle;
+    border-style:solid;
+    color:black;
+    border-right-color: black;
+    border-left-color: black;
+    margin-top:5%;
+    text-align:center;
+    font-family: 'Bitter'
+}
+.instruction a{
+    font-family: 'Bitter'
+}
+#scheduleTitle{
+    font-size:150%;
+}
+.calendarcolor{
+    color:purple;
+}
+.scheduleTitle{
+    border-bottom:5px black;
+    border-style:solid;
+    background-color:purple;
+    color:white;
+    font-family: 'Righteous';
+    width:100%;
+}
+.calendar{
+    margin-top:5%;
+}
+.formlabels{
+    display:block;
+    text-align:left;
+}
+.formnamelabels{
+    text-align:center;
+}
+#name{
+    width:100%;
+}
+.inputsize{
+    width:100%
+}
+.backhome{
+    background-color:white;
+}
+.telephone a{
+    font-size:40px;
+}

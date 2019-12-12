@@ -1,0 +1,124 @@
+  
+body{
+    background-image:url("https://cdn.hipwallpaper.com/i/20/60/6uyFG8.jpg");;
+    background-repeat:repeat-y;
+
+}
+  .navbarMenu{
+    font-family:"Poppins";
+    background-image:url("https://cdn.hipwallpaper.com/i/20/60/6uyFG8.jpg");
+
+}
+#fixedQuestionBar{
+    margin-top:350px;
+}
+.rightColumnBackground{
+    background-image:url("https://cdn.hipwallpaper.com/i/20/60/6uyFG8.jpg");
+    background-position:center;
+
+}
+.menuButton{
+    background: transparent;
+    border-radius: 25px;
+    padding-bottom:-25px;
+    height:60px;
+    background-color:transparent;
+    color:black
+}
+.menuButton p{
+    font-size:2.5vw;
+}
+#satMenuButton{
+    margin-left:60px;
+}
+#fixedQuestion{
+    background-image:url("https://cdn.hipwallpaper.com/i/20/60/6uyFG8.jpg");
+}
+
+.arrow{
+    text-align:left;
+    margin-top:110px;
+}
+.arrow button{
+    background-color:transparent;
+    margin-bottom:20px;
+    border-radius:20%
+}
+.questionTitle{
+    font-size:2vw;
+}
+.questionBox{
+    margin-top:25px;
+    margin-bottom:25px;
+    font-family: 'Poppins';
+    border-style:double;
+    text-align:center;
+    margin-right:50px;
+    text-shadow: 0 -1px 0 #000;
+	box-shadow: 0 1px 10px 10px #666, 0 5px 0 #444, 0 6px 0px rgba(0,0,0,0.6);
+}
+.questionBox h2{
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:20px;
+}
+.optionbox{
+    text-align:center;
+    border-style:solid;
+    margin:10px;
+    border-radius:25px;
+    height:35px;
+    font-family: 'Poppins';
+    text-shadow: 0 -1px 0 #000;
+	box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+	cursor: pointer;
+    background-color:white;
+}
+.optionbox p{
+    font-size:25px;
+    font-family: 'El Messiri';
+}
+.resizeArrow{
+    font-size:2rem;
+    text-align:left;
+    background-color:transparent;
+    margin-top:-60px;
+    margin-left:50px;
+}
+.resizeArrow button{
+    background-color:transparent;
+    
+}
+.checkbox{
+    border-style:double;
+}
+.hintcss{
+    text-align:center;
+    padding-right:10px;
+}
+.hintcss p{
+    font-family:"Special Elite";
+    font-size:1.5rem;
+    margin-top:15px;
+    margin-bottom:30px;
+    text-shadow: 0 -1px 0 #000;
+	box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+    cursor: pointer;
+    border-radius:10px;
+    border-style:solid;
+    background-color:white;
+}
+.videoBox{
+    font-family: 'El Messiri';
+    background-image:url("http://www.moma.org/media/W1siZiIsIjIwMzM2OSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=9db76e597ea8eb78");
+    background-position:center;
+    text-align:center;
+    padding-top:40px; 
+}
+#showQuestionarrow{
+    display:none;
+    margin-top:80px;
+}
+.displaynone{
+    display:none;
+}

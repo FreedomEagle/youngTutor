@@ -1,0 +1,35 @@
+div.pos-f-t.fixed-top#fixedQuestion.ui-widget-content
+  div.collapse#navbarToggleExternalContent
+    div.bg-dark.p-4
+      h4.text-white Collapsed content
+      span.text-muted Toggleable via the navbar brand.
+  div.collapse#review
+    div.bg-dark.p-4
+      h4.text-white Collapsed content
+      span.text-muted Toggleable via the navbar brand.
+  div.collapse#studentInfo
+    div.bg-dark.p-4
+      h4.text-white Collapsed content
+      span.text-muted Toggleable via the navbar brand.
+  nav.navbar.navbar-dark.navbarMenu
+    button(type="button", data-toggle="collapse", data-target="#navbarToggleExternalContent", aria-controls="navbarToggleExternalContent", aria-expanded="false" ,aria-label="Toggle navigation", class="menuButton",id="satMenuButton")
+      p.questionTitle #{title}
+    button(type="button", data-toggle="collapse", data-target="#review", aria-controls="navbarToggleExternalContent", aria-expanded="false" ,aria-label="Toggle navigation", class="menuButton",id="reviewMenuButton")
+      p.questionTitle Review
+    button(type="button", data-toggle="collapse", data-target="#studentInfo", aria-controls="navbarToggleExternalContent", aria-expanded="false" ,aria-label="Toggle navigation", class="menuButton")
+      p.questionTitle Student Name
+  div.row.row-no-gutters#questionHeader
+    div.col-3.arrow
+        button(type="button")
+            h2 	&larr;
+        br 
+        button(type="button")
+            h2 &rarr;
+    div.col-8.questionBox
+      h2 #{question}
+  div.row.resizeArrow
+    div.col-12
+       button(type="button"  id="hideQuestionArrow")
+        h2 Question &#8593;
+       button(type="button" id="showQuestionarrow")
+        h2 Question &darr;
